@@ -48,6 +48,7 @@
   position: fixed;
   width: 75%;
   height: 60px;
+  z-index: 1;
 }
 
 .content {
@@ -155,6 +156,7 @@ ul {
   display: inline-block;
   width: 100px;
   height: 34px;
+  z-index: 0;
 }
 
 /* Hide default HTML checkbox */
@@ -164,8 +166,7 @@ ul {
   height: 0;
 }
 
-.on, .off
-{
+.on, .off{
   color: black;
   position: absolute;
   transform: translate(-50%,-50%);
