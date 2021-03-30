@@ -304,7 +304,17 @@ button.btn{
   border-radius: 50px;
   margin: 10px 0px 0px 0px;
 }
- 
+
+.eth p button{
+  padding: 3px 7px;
+  margin-left: 10px;
+}
+
+button.b-2 .fa-wallet{
+  background-color: #b295ff;
+  margin-right: 0px;
+}
+
 /* .fa-shield{
   background-color: #f2f2f2;
   border-radius: 100%;
@@ -321,7 +331,7 @@ span.s-1{
 }
 
 .s-1, .s-2{
-  margin: 10px 0px 10px 10px;
+  margin: 10px 0px 10px 6px;
 }
 
 .k-p{
@@ -347,7 +357,7 @@ span.s-1{
   top: 10px;
   align-self: center;
   color: black;
-  margin: 8px 5px 0px 5px ;
+  margin: 8px 5px 0px 3px ;
 }
 
 .part-two{
