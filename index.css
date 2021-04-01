@@ -29,7 +29,13 @@
   background-color: #ffffff;
 }
 
-.sidebar ul li:nth-child(2){
+.sidebar ul li:hover{
+  background-color: #f4f5f9;
+  border-left: #2d1963 3px solid;
+  cursor: pointer;
+}
+
+.sidebar ul li:nth-child(2):hover{
   background-color: #f4f5f9;
   border-left: #2d1963 3px solid;
 }
@@ -290,7 +296,7 @@ button.btn{
 }
 
 .btc{
-  background-color: #ede4ff;
+  
 }
 
 .btc, .eth, .ltc{
@@ -298,6 +304,11 @@ button.btn{
   justify-content: space-between;
   /* border: 1pt solid #2d1963; */
   /* margin-top: 1px 10px; */
+}
+
+.btc:hover, .eth:hover, .ltc:hover{
+  background-color: #ede4ff;
+  border-left: #2d1963 3px solid;
 }
 
 .btc p button,  .eth p button, .ltc p button{
